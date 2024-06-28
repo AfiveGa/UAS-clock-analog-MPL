@@ -1,0 +1,22 @@
+name: analog_clock_example
+description: Demonstrates how to use the analog_clock plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+  analog_clock:
+    path: ../
+
+flutter:
+  uses-material-design: true
